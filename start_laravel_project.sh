@@ -64,7 +64,7 @@ while true; do
     if [ -d "$project_name" ]; then
         echo "O diretório $project_name já existe. Por favor, escolha outro nome."
     else
-        if /home/rafael/.config/composer/vendor/bin/laravel new "$project_name"; then
+        if /home/user/.config/composer/vendor/bin/laravel new "$project_name"; then
             cd "/seu/diretorio/de/projetos/$project_name"
             clear
             
